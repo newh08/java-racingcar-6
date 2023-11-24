@@ -8,4 +8,12 @@ public class Car {
         this.carName = new CarName(carName);
         this.carPosition = CarPosition.initializeCarPosition();
     }
+
+    public CarName getCarName() {
+        return carName;
+    }
+
+    public CarPosition getCarPosition() {
+        return carPosition;
+    }
 }

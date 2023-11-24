@@ -10,4 +10,8 @@ public class CarPosition {
     public static CarPosition initializeCarPosition() {
         return new CarPosition(0);
     }
+
+    public int getCarPosition() {
+        return carPosition;
+    }
 }
