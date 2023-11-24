@@ -16,4 +16,8 @@ public class Car {
     public CarPosition getCarPosition() {
         return carPosition;
     }
+
+    public void moveCar(int randomNumber) {
+        carPosition.movingCarPosition(randomNumber);
+    }
 }
