@@ -6,6 +6,10 @@ import racingcar.model.cars.dto.WinCarDto;
 
 public class OutputView {
 
+    public void printResultStartMessage() {
+        System.out.println("실행 결과");
+    }
+
     public void printRaceResult(List<CarDto> carDto) {
         for (CarDto dto : carDto) {
             String movePath = "-".repeat(dto.getCarPosition());

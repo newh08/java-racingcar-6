@@ -1,4 +1,4 @@
-package racingcar.model;
+package racingcar.model.car.dto;
 
 public class CarDto {
     private final String carName;

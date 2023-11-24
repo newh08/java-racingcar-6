@@ -1,4 +1,4 @@
-package racingcar.model;
+package racingcar.model.car;
 
 public class CarPosition {
     private static final int MINIMUM_MOVE_RANDOM_NUMBER = 4;
@@ -26,5 +26,13 @@ public class CarPosition {
 
     private boolean decidingWhetherMove(int randomNumber) {
         return randomNumber >= MINIMUM_MOVE_RANDOM_NUMBER;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof CarPosition position) {
+            return this.carPosition == position.carPosition;
+        }
+        return false;
     }
 }

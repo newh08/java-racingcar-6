@@ -1,4 +1,4 @@
-package racingcar.model;
+package racingcar.model.car;
 
 public class Car {
     private final CarName carName;
@@ -19,5 +19,9 @@ public class Car {
 
     public void moveCar(int randomNumber) {
         carPosition.movingCarPosition(randomNumber);
+    }
+
+    public boolean samePosition(CarPosition carPosition) {
+        return this.carPosition.equals(carPosition);
     }
 }

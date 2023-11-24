@@ -2,8 +2,8 @@ package racingcar.util;
 
 import java.util.ArrayList;
 import java.util.List;
-import racingcar.model.Car;
-import racingcar.model.Cars;
+import racingcar.model.car.Car;
+import racingcar.model.cars.Cars;
 
 public class CarConverter {
 
